@@ -1,6 +1,6 @@
 # Grant Accord Escrow
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-Arkhai
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Arkhai
 - **Primary track:** Arkhai
 - **Overlap targets:** Octant, ENS, Filecoin, SelfProtocol, PayWithLocus, Markee
 - **Primary contract:** GrantAccordEscrow
