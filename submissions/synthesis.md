@@ -1,6 +1,6 @@
 # Grant Accord Escrow
 
-- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Arkhai
+- **Repo:** TODO_GITHUB_URL/Synthesis-Arkhai
 - **Primary track:** Arkhai
 - **Overlap targets:** Octant, ENS, Filecoin, SelfProtocol, PayWithLocus, Markee
 - **Primary contract:** GrantAccordEscrow
@@ -18,10 +18,10 @@ An escrow-ready agreement layer that turns natural-language grant or service ter
   "status": "verified",
   "project_name": "Grant Accord Escrow",
   "track": "Arkhai",
-  "plan_id": "0xd51c4506aef45c2a8b680c0227f41d47b08e4a4a594fa1a68eafec13ddca9087",
-  "simulation_hash": "0x0482a34263579cfbb9c75099dc78bcb989fc4fbe5c2d6213a042a59937a9565b",
+  "plan_id": "0xfcee2ad0640c35bd423bcfa686b0a72ddad36f16830c84cd623990077c8fe1d7",
+  "simulation_hash": "0x1df51cb3106d6c6a78b08d08c562e25ac6c0275a2b3116ef5508c2f34728ad78",
   "execution_status": "awaiting_credentials",
   "tx_ids": [],
-  "created_at": "2026-03-18T21:43:50+00:00"
+  "created_at": "2026-03-18T23:01:03+00:00"
 }
 ```
