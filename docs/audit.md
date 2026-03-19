@@ -43,6 +43,14 @@ when live network credentials are absent. Network-only partners still report mis
 `cast send` output is now parsed for `transactionHash` explicitly before falling back to the
 raw stdout payload.
 
+## Track-specific trust boundaries
+
+- primary wrapper contract: `GrantAccordEscrow`
+- live-only partners: Arkhai, Octant, SelfProtocol, PayWithLocus, Markee
+- offline-prepared partners: ENS (prepared_contract_call), Filecoin (prepared_filecoin_bundle)
+- highest-sensitivity actions: selfprotocol_zk_verify
+- latest verification artifact: `artifacts/verification/0x9cdddc8730546aa1e6e811e634dd306a3072dd5303c97b69700e34a5d7e1e0b2.json`
+
 ## Current posture
 
 ### Good
