@@ -7,5 +7,579 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "counterparties",
+          "description": "Wallets, ENS names, and agreement counterparties.",
+          "score": 95
+        },
+        {
+          "name": "release_conditions",
+          "description": "Natural-language milestones and escrow checkpoints.",
+          "score": 90
+        },
+        {
+          "name": "proof_bundle",
+          "description": "Evidence hashes and settlement artifacts.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and receipt anchors.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x9e6e86c60ded37f8790ce9a73d564a5ef7a56b574f24518cccfa0a3cba9b5782"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xecd2508786021de16e0ceec6e5e576d370f57a3154ade0155292647eb24af107"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "ARKHAI_API_KEY",
+        "ARKHAI_ESCROW_URL",
+        "ENS_NAME",
+        "FILECOIN_API_TOKEN",
+        "FILECOIN_UPLOAD_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Grant Accord Escrow",
+      "track": "Arkhai",
+      "plan_id": "0x9e6e86c60ded37f8790ce9a73d564a5ef7a56b574f24518cccfa0a3cba9b5782",
+      "simulation_hash": "0xecd2508786021de16e0ceec6e5e576d370f57a3154ade0155292647eb24af107",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:29:58+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "counterparties",
+          "description": "Wallets, ENS names, and agreement counterparties.",
+          "score": 95
+        },
+        {
+          "name": "release_conditions",
+          "description": "Natural-language milestones and escrow checkpoints.",
+          "score": 90
+        },
+        {
+          "name": "proof_bundle",
+          "description": "Evidence hashes and settlement artifacts.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and receipt anchors.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x9e6e86c60ded37f8790ce9a73d564a5ef7a56b574f24518cccfa0a3cba9b5782"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xecd2508786021de16e0ceec6e5e576d370f57a3154ade0155292647eb24af107"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "ARKHAI_API_KEY",
+        "ARKHAI_ESCROW_URL",
+        "ENS_NAME",
+        "FILECOIN_API_TOKEN",
+        "FILECOIN_UPLOAD_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:29:58+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Grant Accord Escrow",
+      "track": "Arkhai",
+      "plan_id": "0x9e6e86c60ded37f8790ce9a73d564a5ef7a56b574f24518cccfa0a3cba9b5782",
+      "simulation_hash": "0xecd2508786021de16e0ceec6e5e576d370f57a3154ade0155292647eb24af107",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:29:58+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "GrantAccordEscrow.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "counterparties",
+          "description": "Wallets, ENS names, and agreement counterparties.",
+          "score": 95
+        },
+        {
+          "name": "release_conditions",
+          "description": "Natural-language milestones and escrow checkpoints.",
+          "score": 90
+        },
+        {
+          "name": "proof_bundle",
+          "description": "Evidence hashes and settlement artifacts.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and receipt anchors.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xa3a4bc925ddc12445ed6926c083dbfdeeb8d3baa9812c14fad1a5a7583530126",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x9ad9da4a339493025c487e3fe9cc0b1af015be187ae537ef02dc8a6d921ac7ba"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "ARKHAI_API_KEY",
+        "ARKHAI_ESCROW_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:40+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Grant Accord Escrow",
+      "track": "Arkhai",
+      "plan_id": "0xa3a4bc925ddc12445ed6926c083dbfdeeb8d3baa9812c14fad1a5a7583530126",
+      "simulation_hash": "0x9ad9da4a339493025c487e3fe9cc0b1af015be187ae537ef02dc8a6d921ac7ba",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/filecoin/0xa3a4bc925ddc12445ed6926c083dbfdeeb8d3baa9812c14fad1a5a7583530126.json"
+      ],
+      "partner_statuses": {
+        "Arkhai": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "SelfProtocol": "awaiting_credentials",
+        "PayWithLocus": "awaiting_credentials",
+        "Markee": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:48:40+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "counterparties",
+          "description": "Wallets, ENS names, and agreement counterparties.",
+          "score": 95
+        },
+        {
+          "name": "release_conditions",
+          "description": "Natural-language milestones and escrow checkpoints.",
+          "score": 90
+        },
+        {
+          "name": "proof_bundle",
+          "description": "Evidence hashes and settlement artifacts.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and receipt anchors.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x8f6969281d945957ab44ef404c607769652a7ea90b7ace943260b48143115d14",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x679759d41edaf8c2cef2877d77fb750ab05b643518408ddddb4c70aac30184c4"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "ARKHAI_API_KEY",
+        "ARKHAI_ESCROW_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:37+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Grant Accord Escrow",
+      "track": "Arkhai",
+      "plan_id": "0x8f6969281d945957ab44ef404c607769652a7ea90b7ace943260b48143115d14",
+      "simulation_hash": "0x679759d41edaf8c2cef2877d77fb750ab05b643518408ddddb4c70aac30184c4",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/filecoin/0x8f6969281d945957ab44ef404c607769652a7ea90b7ace943260b48143115d14.json"
+      ],
+      "partner_statuses": {
+        "Arkhai": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "SelfProtocol": "awaiting_credentials",
+        "PayWithLocus": "awaiting_credentials",
+        "Markee": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:50:37+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "counterparties",
+          "description": "Wallets, ENS names, and agreement counterparties.",
+          "score": 95
+        },
+        {
+          "name": "release_conditions",
+          "description": "Natural-language milestones and escrow checkpoints.",
+          "score": 90
+        },
+        {
+          "name": "proof_bundle",
+          "description": "Evidence hashes and settlement artifacts.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and receipt anchors.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x40f52bbe3eabfd44b7474563a3bd1ec91c17211bb6795274221c4849fcd161a6",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xdb52213ee3a5822e9c84be17c37741d5a8c825459bf35ce2b4582cd4e61c6875"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "ARKHAI_API_KEY",
+        "ARKHAI_ESCROW_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:47+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Grant Accord Escrow",
+      "track": "Arkhai",
+      "plan_id": "0x40f52bbe3eabfd44b7474563a3bd1ec91c17211bb6795274221c4849fcd161a6",
+      "simulation_hash": "0xdb52213ee3a5822e9c84be17c37741d5a8c825459bf35ce2b4582cd4e61c6875",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/filecoin/0x40f52bbe3eabfd44b7474563a3bd1ec91c17211bb6795274221c4849fcd161a6.json"
+      ],
+      "partner_statuses": {
+        "Arkhai": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "SelfProtocol": "awaiting_credentials",
+        "PayWithLocus": "awaiting_credentials",
+        "Markee": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:51:47+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:08+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "counterparties",
+          "description": "Wallets, ENS names, and agreement counterparties.",
+          "score": 95
+        },
+        {
+          "name": "release_conditions",
+          "description": "Natural-language milestones and escrow checkpoints.",
+          "score": 90
+        },
+        {
+          "name": "proof_bundle",
+          "description": "Evidence hashes and settlement artifacts.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and receipt anchors.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:08+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x9cdddc8730546aa1e6e811e634dd306a3072dd5303c97b69700e34a5d7e1e0b2",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:08+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x494792ffc76b64ae8dff58cbf7b19376ffdb06d3048dc7f8d5c95855bbbbca00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:08+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "ARKHAI_API_KEY",
+        "ARKHAI_ESCROW_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:08+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Grant Accord Escrow",
+      "track": "Arkhai",
+      "plan_id": "0x9cdddc8730546aa1e6e811e634dd306a3072dd5303c97b69700e34a5d7e1e0b2",
+      "simulation_hash": "0x494792ffc76b64ae8dff58cbf7b19376ffdb06d3048dc7f8d5c95855bbbbca00",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/filecoin/0x9cdddc8730546aa1e6e811e634dd306a3072dd5303c97b69700e34a5d7e1e0b2.json"
+      ],
+      "partner_statuses": {
+        "Arkhai": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Filecoin": "prepared_filecoin_bundle",
+        "SelfProtocol": "awaiting_credentials",
+        "PayWithLocus": "awaiting_credentials",
+        "Markee": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:52:08+00:00"
+    }
   }
 ]
