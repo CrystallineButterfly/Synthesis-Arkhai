@@ -5,7 +5,7 @@
 - **Category:** agreements
 - **Primary contract:** `GrantAccordEscrow`
 - **Primary module:** `arkhai_accord`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,31 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:08+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** ENS (prepared_contract_call), Filecoin (prepared_filecoin_bundle)
+- **Live credential blockers:** Arkhai, Octant, SelfProtocol, PayWithLocus, Markee
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `selfprotocol_zk_verify` (SelfProtocol, high)
+
+## Live blocker details
+
+- **Arkhai** — ARKHAI_API_KEY, ARKHAI_ESCROW_URL — https://arkhai.ai/
+- **Octant** — OCTANT_SIGNAL_URL — https://octant.app/
+- **SelfProtocol** — SELF_PROTOCOL_API_KEY, SELF_VERIFICATION_URL — https://docs.self.xyz/
+- **PayWithLocus** — LOCUS_API_KEY, LOCUS_PAYMENT_URL — https://docs.locus.finance/
+- **Markee** — MARKEE_API_KEY, MARKEE_MESSAGE_URL — https://markee.xyz/
+
+## Latest evidence artifacts
+
+- `artifacts/onchain_intents/ens_ens_publish.json`
+- `artifacts/filecoin/0x9cdddc8730546aa1e6e811e634dd306a3072dd5303c97b69700e34a5d7e1e0b2.json`
 
 ## Security controls
 
